@@ -1,14 +1,10 @@
 @font-face {
     font-family: Hacen;
-    src: url(../font/HacenCasablanca_0.ttf);
+    src: url(../font/HacenCasablanca.ttf);
 }
 @font-face {
     font-family: Hacen-bold;
-    src: url(../font/HacenCasablancaHeavy_0.ttf);
-}
-@font-face {
-    font-family: Hacen-light;
-    src: url(../font/ITCHandelGothicArabicMedium.ttf);
+    src: url(../font/HacenCasablancaHeavy.ttf);
 }
 
 .Hacen-Light{
@@ -25,7 +21,7 @@ a{
     transition: all ease-in-out 0.3s;
 }
 body{
-    font-family: Hacen-light , 'sans-serif' !important;
+    font-family: Hacen , 'sans-serif' !important;
 }
 /*Start Top section*/
 .top-section img.top-section-bg{
