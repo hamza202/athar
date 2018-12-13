@@ -1,88 +1,125 @@
+@import "../font/Sukar/font.css";
+
 @font-face {
     font-family: Hacen;
-    src: url(../font/HacenCasablanca.ttf);
-}
-@font-face {
-    font-family: Hacen-bold;
-    src: url(../font/HacenCasablancaHeavy.ttf);
+    src: url(../font/ITCHandelGothicArabicLight.otf);
 }
 
-.Hacen-Light{
-    font-family: Hacen-Light , 'sans-serif' !important;
+@font-face {
+    font-family: Hacen-bold;
+    src: url(../font/ITCHandelGothicArabicMedium.ttf);
 }
-.Hacen{
-    font-family: Hacen , 'sans-serif' !important;
+
+@font-face {
+    font-family: Hacen-Regular;
+    src: url(../font/ITCHandelGothicArabicRegular.ttf);
 }
-.Hacen-bold{
-    font-family: Hacen-bold , 'sans-serif' !important;
+
+.Hacen {
+    font-family: Hacen, 'sans-serif' !important;
 }
-a{
+
+.Hacen-bold {
+    font-family: Hacen-bold, 'sans-serif' !important;
+}
+
+.sukar-bold {
+    font-family: SukarBold, 'sans-serif' !important;
+}
+
+a {
     text-decoration: none !important;
     transition: all ease-in-out 0.3s;
 }
-body{
-    font-family: Hacen , 'sans-serif' !important;
+
+body {
+    font-family: SukarRegular, 'sans-serif';
+    color: #363636;
 }
+
+a, p {
+    font-family: Hacen-Regular, 'sans-serif'
+}
+.navbar-light .navbar-nav .nav-link{
+    font-family: Hacen-bold , 'sans-serif';
+}
+
 /*Start Top section*/
-.top-section img.top-section-bg{
+.top-section img.top-section-bg {
     width: 100%;
     height: auto;
     max-height: 100vh;
 }
-.top-section-container{
+
+.top-section-container {
     color: #fff;
     position: absolute;
     top: 50%;
     width: 100%;
-    transform: translateY(-50%);
+    transform: translateY(-60%);
 }
-.top-section-container .input-group{
+
+.top-section-container .input-group {
     max-width: 550px;
     margin: 0 auto;
 }
-.top-section-container .input-group input{
+
+.top-section-container .input-group input {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     border: 0;
     font-size: 20px;
-    padding-bottom: 0.6rem;
+    padding-bottom: 0.3rem;
     padding-right: 2rem;
     height: 50px;
     background-color: #ECECEC;
 }
-.top-section-container .input-group .input-group-append{
+
+.top-section-container .input-group .input-group-append {
     margin-right: -25px;
 }
-.top-section-container .input-group button{
+
+.top-section-container .input-group button {
     border-radius: 50px !important;
     width: 80px;
     z-index: 5;
     transition: all ease-in-out 0.3s;
 }
-.top-section-container .input-group input:focus{
+
+.top-section-container .input-group input:focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 232, 153, 0.25);
 }
-.btn-color{
+
+.blue-color {
+    color: #00E899;
+}
+
+.btn-color {
     background-color: #00E899;
     color: #fff;
 }
+
 .btn-color:hover {
     background-color: #00dd8c;
 }
-.btn-color-outer{
+
+.btn-color-outer {
     background-color: transparent;
     color: #00E899;
-    border:1px solid #00E899 ;
+    border: 1px solid #00E899;
 }
-.btn-color-outer:hover{
+
+.btn-color-outer:hover {
     background-color: #00E899;
     color: #fff;
 }
-#section10{
+
+#section10 {
     position: absolute;
     bottom: 50px;
     left: 50%;
 }
+
 #section10 a {
     position: absolute;
     bottom: 20px;
@@ -96,9 +133,11 @@ body{
     text-decoration: none;
     transition: opacity .3s;
 }
+
 #section10 a:hover {
     opacity: .7;
 }
+
 #section10 a span {
     position: absolute;
     top: 0;
@@ -110,6 +149,7 @@ body{
     border-radius: 50px;
     box-sizing: border-box;
 }
+
 #section10 a span::before {
     position: absolute;
     top: 10px;
@@ -124,6 +164,7 @@ body{
     animation: sdb10 2s infinite;
     box-sizing: border-box;
 }
+
 @-webkit-keyframes sdb10 {
     0% {
         -webkit-transform: translate(0, 0);
@@ -140,6 +181,7 @@ body{
         opacity: 0;
     }
 }
+
 @keyframes sdb10 {
     0% {
         transform: translate(0, 0);
@@ -156,9 +198,10 @@ body{
         opacity: 0;
     }
 }
+
 /*End Top section*/
 /*Start Nav bar */
-.top-section .navbar{
+.top-section .navbar {
     position: absolute;
     z-index: 1000;
     top: 0;
@@ -167,25 +210,35 @@ body{
     width: 100%;
     background: transparent;
 }
-.navbar-light .navbar-nav .nav-link{
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:focus {
     color: #fff;
-}
-.navbar-light .navbar-nav .active > .nav-link{
-    color: #00E899;
-}
-.navbar-light .navbar-nav .nav-link:hover{
-    color: #00E899;
-}
-.navbar .first-list a.btn-color{
+    outline: none;
     border-radius: 50px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
-.navbar .first-list a.btn-color:hover,
-.navbar .second-list a.btn-color-outer:hover{
+
+.navbar-light .navbar-nav a.nav-link:hover {
+    background: #00E899;
     color: #fff;
 }
-.navbar .second-list a.btn-color-outer{
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #00E899;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00E899;
+}
+
+.navbar .first-list a.btn-color:hover,
+.navbar .second-list a.btn-color-outer:hover {
+    color: #fff;
+}
+
+.navbar .second-list a.btn-color-outer {
     color: #00dd8c;
     border-radius: 50px;
     padding-right: 1rem;
@@ -193,20 +246,299 @@ body{
 }
 
 /*End nav bar*/
+/*Start latest course section*/
+.last-course-title p {
+    font-size: 18px;
+}
+
+.latest-courses .controls button {
+    background-color: transparent;
+    border: 1px solid #B2B2B2;
+    color: #959595;
+    padding: 5px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 6px;
+    font-size: 17px;
+    transition: all ease-in-out 0.3s;
+}
+
+.latest-courses .controls button:hover,
+.latest-courses .controls button.mixitup-control-active {
+    color: #fff;
+    background-color: #00dd8c;
+    border-color: #00dd8c;
+    outline: none;
+}
+
+.courses-card {
+    border-radius: 16px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.20);
+}
+
+.courses-card-img img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.latest-courses {
+    background: url(../image/bg2.png) repeat;
+}
+
+.courses-card-img span {
+    position: absolute;
+    top: 15px;
+    font-size: 20px;
+    right: 0;
+    padding: 5px 10px 5px 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+}
+
+.courses-card-title a {
+    display: block;
+    max-width: 277px;
+    color: #363636;
+    font-size: 19px;
+    font-family: "SukarRegular", sans-serif;
+    padding: 5px 15px;
+}
+
+.courses-card-title {
+    border-right: 3px solid #50C2F2;
+}
+
+.courses .courses-card-img span {
+    background: rgba(80, 194, 242, 0.95);
+}
+
+.courses-date-container ul li,
+.courses-card-title a:hover {
+    color: #50C2F2;
+}
+
+.specialty .courses-card-title a:hover,
+.specialty .courses-date-container ul li {
+    color: #F5544A;
+}
+
+.specialty .courses-card-title {
+    border-color: #F5544A;
+}
+
+.specialty .courses-card-img span {
+    background: rgba(245, 84, 74, 0.95);
+}
+
+.courses-card {
+    -o-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transition: all ease 0.3s;
+}
+
+.courses-card:hover {
+    -o-transform: scale(1.04, 1.04);
+    -moz-transform: scale(1.04, 1.04);
+    transform: scale(1.04, 1.04);
+    -webkit-box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.36);
+}
+
+.courses-date-container p {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.courses-date-container {
+    padding: 0 18px;
+    margin-top: 20px
+}
+
+.courses-date-container > p {
+    color: #8E8E8E;
+}
+
+.courses-card {
+    margin-bottom: 30px;
+}
+
+.latest-courses .controls {
+    margin-bottom: 30px;
+}
+.latest-courses{
+    margin-bottom: 90px;
+}
+/*End latest course section*/
+/*Start how learn section*/
+ .how-learn-section {
+     padding-top: 60px;
+     background-color: #50C2F2;
+     padding-bottom: 120px;
+ }
+.how-learn-section img.mask-top-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 250px;
+}
+.how-learn-section img.mask-bottom-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.how-learn-section h3,
+.how-learn-section p{
+    color: #fff;
+}
+.how-learn-section h3,
+.about-section h3{
+    font-size: 30px;
+    font-family: "SukarBold" , sans-serif;
+}
+.how-learn-section p{
+    font-size: 20px;
+}
+
+/*End how learn section*/
+/*Start video section*/
+#html5-watermark{
+    display: none !important;
+}
+.html5lightbox-container{
+    position: relative;
+}
+.video-section a.html5lightbox{
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+.video-section a.html5lightbox img{
+    border-radius: 20px;
+}
+.video-section{
+    margin-top: -60px;
+    margin-bottom: 110px;
+}
+.html5lightbox-container img.video-play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%) scale(1,1);
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+.html5lightbox-container:hover img.video-play{
+    transform: translate(-50% , -50%) scale(1.1,1.1);
+}
+.html5boxVolumeBarActive, .html5boxSeekerPlay{
+    background-color: #50C2F2 !important;
+}
+.html5lightbox-container::before{
+    position: absolute;
+    content: '';
+    display: block;
+    background-color: rgba(80, 194 , 242,0.30);
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    height: 55%;
+    z-index: 0;
+    border-radius: 20px;
+}
+/*End video section*/
+/*Start about section*/
+.green-gradient{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00e798+0,00a870+100 */
+    background: #00e798; /* Old browsers */
+    background: -moz-linear-gradient(top, #00e798 0%, #00a870 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #00e798 0%,#00a870 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #00e798 0%,#00a870 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e798', endColorstr='#00a870',GradientType=0 ); /* IE6-9 */
+}
+.about-section .green-gradient h3,
+.about-section .green-gradient p{
+    color: #fff;
+}
+.about-section .green-gradient p{
+    font-size: 18px;
+}
+.about-section-container{
+   padding: 50px 100px 40px 50px;
+}
+.green-logo{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.about-section{
+    margin-bottom: 90px;
+}
+/*End about section*/
+/*Start count section*/
+.count-section h3{
+ color: #1B4A5E;
+}
+.count-section-container .count-item{
+    padding: 30px 20px 20px 40px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.15);
+}
+.count-section-container .count-item img{
+    max-width: 150px;
+}
+.count-number-container span{
+    font-size: 35px;
+}
+.count-number-container p{
+    font-size: 17px;
+}
+.count-section{
+    margin-bottom: 60px;
+}
+    /*End count section*/
+
+/*start sitting*/
+.dark-blue{
+    color: #1B4A5E !important;
+}
+.light-green{
+    color: #00E899 !important;
+}
+.light-red{
+    color: #F5544A !important;
+}
+/*End sitting*/
+
+/*Start media query*/
 @media (min-width: 768px) {
-    .navbar .first-list a{
-        margin: 0 20px;
+    .navbar .first-list a {
+        margin: 0 10px;
     }
-    .navbar ul.first-list{
+
+    .navbar ul.first-list {
         margin-right: 40px;
     }
-    .navbar .second-list a.btn-color-outer{
+
+    .navbar .second-list a.btn-color-outer {
         margin-left: 20px;
     }
-    .navbar .second-list li:last-child a{
+
+    .navbar .second-list li:last-child a {
         position: relative;
     }
-    .navbar .second-list li:last-child a::before{
+
+    .navbar .second-list li:last-child a::before {
         content: '';
         position: absolute;
         display: block;
@@ -217,6 +549,8 @@ body{
         bottom: 12px;
     }
 }
+
 @media (max-width: 767px) {
 
 }
+/*End media query*/

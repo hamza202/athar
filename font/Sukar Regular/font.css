@@ -1,0 +1,13 @@
+/*
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  
+/* Regular */
+@font-face {
+    font-family: "Sukar Regular";
+    src: url('font/Sukar-Regular.eot');
+    src: url('font/Sukar-Regular.eot?#iefix') format('embedded-opentype'),
+    url('font/Sukar-Regular.svg#Sukar-Regular') format('svg'),
+    url('font/Sukar-Regular.woff') format('woff'),
+    url('font/Sukar-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

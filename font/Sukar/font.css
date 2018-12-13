@@ -1,0 +1,33 @@
+/*
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  
+/* Black */
+@font-face {
+    font-family: "Sukar Black";
+    src: url('font/Sukar-Black.eot');
+    src: url('font/Sukar-Black.eot?#iefix') format('embedded-opentype'),
+    url('font/Sukar-Black.svg#Sukar-Black') format('svg'),
+    url('font/Sukar-Black.woff') format('woff'),
+    url('font/Sukar-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SukarBold";
+    src: url('font/Sukar-Bold.eot');
+    src: url('font/Sukar-Bold.eot?#iefix') format('embedded-opentype'),
+    url('font/Sukar-Bold.svg#Sukar-Bold') format('svg'),
+    url('font/Sukar-Bold.woff') format('woff'),
+    url('font/Sukar-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SukarRegular";
+    src: url('font/Sukar-Regular.eot');
+    src: url('font/Sukar-Regular.eot?#iefix') format('embedded-opentype'),
+    url('font/Sukar-Regular.svg#Sukar-Regular') format('svg'),
+    url('font/Sukar-Regular.woff') format('woff'),
+    url('font/Sukar-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
