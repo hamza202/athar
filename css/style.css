@@ -773,6 +773,9 @@ footer a:hover {
         object-fit: cover;
         max-height: 100vh;
     }
+    .trainers-section .item{
+        padding: 20px 30px;
+    }
     img.footer-logo{
         margin:0 auto ;
     }
