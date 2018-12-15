@@ -743,24 +743,26 @@ footer a:hover {
         margin-bottom: 30px;
     }
 }
-
 @media (max-width: 768px) {
     .navbar-light .navbar-nav .nav-link{
         font-size: 16px;
         display: inline-block;
         margin: 5px 0;
     }
-    .navbar-collapse{
-        background-color: #0F1F38;
-        text-align: center;
-        border-radius: 6px;
-    }
+
     .about-section-container {
         padding: 15px;
     }
 
     .green-logo{
         max-width: 150px;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #0F1F38;
+        text-align: center;
+        border-radius: 6px;
     }
 }
 @media (max-width: 576px) {
