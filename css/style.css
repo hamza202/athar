@@ -40,10 +40,15 @@ body {
 a, p {
     font-family: Hacen-Regular, 'sans-serif'
 }
-.navbar-light .navbar-nav .nav-link{
-    font-family: Hacen-bold , 'sans-serif';
-}
 
+.navbar-light .navbar-nav .nav-link {
+    font-family: Hacen-bold, 'sans-serif';
+}
+.navbar-light .navbar-toggler {
+    color: rgb(0, 232, 153);
+    border-color: rgb(0, 232, 153);
+    border-width: 2px;
+}
 /*Start Top section*/
 .top-section img.top-section-bg {
     width: 100%;
@@ -374,79 +379,101 @@ a, p {
 .latest-courses .controls {
     margin-bottom: 30px;
 }
-.latest-courses{
+
+.latest-courses {
     margin-bottom: 90px;
 }
+
 /*End latest course section*/
 /*Start how learn section*/
- .how-learn-section {
-     padding-top: 60px;
-     background-color: #50C2F2;
-     padding-bottom: 120px;
- }
-.how-learn-section img.mask-top-left{
+.how-learn-section {
+    padding-top: 60px;
+    background-color: #50C2F2;
+    padding-bottom: 120px;
+}
+
+img.mask-top-left {
     position: absolute;
     top: 0;
     left: 0;
     max-width: 250px;
 }
-.how-learn-section img.mask-bottom-right{
+
+img.mask-top-right {
+    position: absolute;
+    top: 0;
+    righr: 0;
+    max-width: 250px;
+}
+
+.how-learn-section img.mask-bottom-right {
     position: absolute;
     bottom: 0;
     right: 0;
 }
+
 .how-learn-section h3,
-.how-learn-section p{
+.how-learn-section p {
     color: #fff;
 }
+
 .how-learn-section h3,
-.about-section h3{
+.about-section h3 {
     font-size: 30px;
-    font-family: "SukarBold" , sans-serif;
+    font-family: "SukarBold", sans-serif;
 }
-.how-learn-section p{
+
+.how-learn-section p {
     font-size: 20px;
 }
 
 /*End how learn section*/
 /*Start video section*/
-#html5-watermark{
+#html5-watermark {
     display: none !important;
 }
-.html5lightbox-container{
+
+.html5lightbox-container {
     position: relative;
 }
-.video-section a.html5lightbox{
+
+.video-section a.html5lightbox {
     display: block;
     position: relative;
     z-index: 2;
 }
-.video-section a.html5lightbox img{
+
+.video-section a.html5lightbox img {
     border-radius: 20px;
 }
-.video-section{
+
+.video-section {
     margin-top: -60px;
     margin-bottom: 110px;
 }
-.html5lightbox-container img.video-play{
+
+.html5lightbox-container img.video-play {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% , -50%) scale(1,1);
+    transform: translate(-50%, -50%) scale(1, 1);
     transition: all ease-in-out .4s;
     cursor: pointer;
 }
-.html5lightbox-container:hover img.video-play{
-    transform: translate(-50% , -50%) scale(1.1,1.1);
+
+.html5lightbox-container:hover img.video-play {
+    transform: translate(-50%, -50%) scale(1.1, 1.1);
 }
-.html5boxVolumeBarActive, .html5boxSeekerPlay{
+
+.html5boxVolumeBarActive, .html5boxSeekerPlay {
     background-color: #50C2F2 !important;
 }
-.html5lightbox-container::before{
+
+.html5lightbox-container::before {
     position: absolute;
     content: '';
     display: block;
-    background-color: rgba(80, 194 , 242,0.30);
+    background-color: rgba(80, 194, 242, 0.30);
     bottom: -20px;
     left: -20px;
     right: -20px;
@@ -454,68 +481,218 @@ a, p {
     z-index: 0;
     border-radius: 20px;
 }
+
 /*End video section*/
 /*Start about section*/
-.green-gradient{
+.green-gradient {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00e798+0,00a870+100 */
     background: #00e798; /* Old browsers */
     background: -moz-linear-gradient(top, #00e798 0%, #00a870 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #00e798 0%,#00a870 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #00e798 0%,#00a870 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e798', endColorstr='#00a870',GradientType=0 ); /* IE6-9 */
+    background: -webkit-linear-gradient(top, #00e798 0%, #00a870 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #00e798 0%, #00a870 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00e798', endColorstr='#00a870', GradientType=0); /* IE6-9 */
 }
+
 .about-section .green-gradient h3,
-.about-section .green-gradient p{
+.about-section .green-gradient p {
     color: #fff;
 }
-.about-section .green-gradient p{
+
+.about-section .green-gradient p {
     font-size: 18px;
 }
-.about-section-container{
-   padding: 50px 100px 40px 50px;
+
+.about-section-container {
+    padding: 50px 100px 40px 50px;
 }
-.green-logo{
+
+.green-logo {
     position: absolute;
     bottom: 0;
     right: 20px;
 }
-.about-section{
+
+.about-section {
     margin-bottom: 90px;
 }
+
 /*End about section*/
 /*Start count section*/
-.count-section h3{
- color: #1B4A5E;
+.count-section h3 {
+    color: #1B4A5E;
 }
-.count-section-container .count-item{
-    padding: 30px 20px 20px 40px;
+
+.count-section-container .count-item {
+    padding: 30px 20px 40px 20px;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.15);
-    box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.15);
 }
-.count-section-container .count-item img{
+
+.count-section-container .count-item img {
     max-width: 150px;
 }
-.count-number-container span{
+
+.count-number-container span {
     font-size: 35px;
 }
-.count-number-container p{
+
+.count-number-container p {
     font-size: 17px;
 }
-.count-section{
-    margin-bottom: 60px;
-}
-    /*End count section*/
 
+.count-section {
+    margin-bottom: 90px;
+}
+
+/*End count section*/
+/*Start trainers section*/
+.trainers-section h3 {
+    margin-top: 30px;
+}
+
+.trainers-section p {
+    color: #fff;
+}
+
+.trainers-section {
+    padding-bottom: 50px;
+}
+
+.trainers-container {
+    padding: 30px 20px;
+    border-radius: 40px;
+    border: 2px solid #fff;
+}
+
+.trainers-container p.trainers-title {
+    font-size: 21px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.trainers-container p.trainers-sup-title {
+    font-size: 18px;
+}
+
+.trainers-container .trainer-img-container {
+    position: absolute;
+    border: 10px solid #0F1F38;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    top: -30px;
+    left: -30px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    border-top-left-radius: 40px;
+}
+
+.trainers-container .trainer-img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 40px;
+}
+
+.trainers-container .trainer-img {
+    position: relative;
+}
+
+.trainers-container .trainer-img::after {
+    content: '';
+    position: absolute;
+    right: -11px;
+    width: 11px;
+    height: 90px;
+    background: #0F1F38;
+    border-right: solid 2px #fff;
+    display: block;
+    top: 18px;
+}
+
+.trainers-container .trainer-img::before {
+    content: '';
+    position: absolute;
+    left: 18px;
+    width: 93px;
+    height: 12px;
+    background: #0F1F38;
+    border-bottom: solid 2px #fff;
+    display: block;
+    bottom: -11px;
+}
+
+.trainers-section .item {
+    padding: 20px;
+}
+
+.trainers-container i.quotation {
+    position: absolute;
+    bottom: -15px;
+    right: 20px;
+    font-size: 35px;
+    color: #00E899;
+}
+
+/*End trainers section*/
+/*Start brand section*/
+.Brands-section .w-20 {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.w-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.Brands-section .w-20:nth-child(odd) {
+    background-color: #F1F1F1;
+}
+
+.Brands-section {
+    padding: 90px 0;
+}
+
+/*End brand section*/
+/*Start footer section*/
+footer p,
+footer a {
+    color: #AFAFAF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #43D3E8;
+}
+
+.footer-social li a i {
+    font-size: 17px;
+}
+
+.footer-social li {
+    margin-left: 10px;
+}
+
+/*End footr section*/
 /*start sitting*/
-.dark-blue{
+.dark-blue {
     color: #1B4A5E !important;
 }
-.light-green{
+
+.dark-blue-bg {
+    background-color: #0F1F38 !important;
+}
+
+.light-green {
     color: #00E899 !important;
 }
-.light-red{
+
+.light-red {
     color: #F5544A !important;
 }
 /*End sitting*/
@@ -550,7 +727,99 @@ a, p {
     }
 }
 
-@media (max-width: 767px) {
-
+@media (max-width: 992px) {
+    .w-20 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 15px;
+    }
+    #section10 {
+        display: none;
+    }
+    .count-section-container .count-item{
+        margin-bottom: 30px;
+    }
 }
+
+@media (max-width: 768px) {
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 16px;
+        display: inline-block;
+        margin: 5px 0;
+    }
+    .navbar-collapse{
+        background-color: #0F1F38;
+        text-align: center;
+        border-radius: 6px;
+    }
+    .about-section-container {
+        padding: 15px;
+    }
+
+    .green-logo{
+        max-width: 150px;
+    }
+}
+@media (max-width: 576px) {
+    .top-section img.top-section-bg {
+        width: 100%;
+        height: auto;
+        min-height: 50vh;
+        object-fit: cover;
+        max-height: 100vh;
+    }
+    img.footer-logo{
+        margin:0 auto ;
+    }
+    footer h5{
+        margin-top: 15px;
+    }
+    footer{
+        text-align: center;
+    }
+    .Brands-section{
+        padding-bottom: 50px;
+    }
+    .top-section-container h1{
+        font-size: 1.5rem;
+    }
+    .top-section-container h2{
+        font-size: 1.4rem;
+    }
+    .top-section-container .input-group{
+        margin-top: 12px !important;
+    }
+    .top-section-container{
+        top: 55%;
+    }
+    .latest-courses .controls button{
+        margin: 0 1px;
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+    .latest-courses h3{
+        font-size: 1.4rem;
+    }
+    .html5lightbox-container::before{
+        bottom: -10px;
+        left: -10px;
+        right: -10px;
+    }
+    .how-learn-section {
+        padding-top: 40px;
+        padding-bottom: 90px;
+    }
+    .latest-courses,.about-section {
+        margin-bottom: 50px;
+    }
+
+    .video-section{
+        margin-bottom: 70px;
+    }
+}
+
 /*End media query*/
