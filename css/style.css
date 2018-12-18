@@ -44,11 +44,13 @@ a, p {
 .navbar-light .navbar-nav .nav-link {
     font-family: Hacen-bold, 'sans-serif';
 }
+
 .navbar-light .navbar-toggler {
     color: rgb(0, 232, 153);
     border-color: rgb(0, 232, 153);
     border-width: 2px;
 }
+
 /*Start Top section*/
 .top-section img.top-section-bg {
     width: 100%;
@@ -111,6 +113,7 @@ a, p {
 .btn-color-outer {
     background-color: transparent;
     color: #00E899;
+    padding-top: 5px;
     border: 1px solid #00E899;
 }
 
@@ -248,6 +251,30 @@ a, p {
     border-radius: 50px;
     padding-right: 1rem;
     padding-left: 1rem;
+}
+
+.page-container nav {
+    background-color: #fff;
+    position: relative;
+}
+
+.page-container nav ul.first-list li a.nav-link,
+.page-container nav ul.second-list li a.nav-link {
+    color: #00dd8c;
+}
+
+.page-container .navbar .second-list li:last-child a::before {
+    background-color: #00dd8c;
+}
+
+.page-container nav ul.second-list li a.nav-link.btn-color-outer {
+    color: #55c1ef;
+    border-color: #55c1ef;
+}
+
+.page-container nav ul.second-list li a.nav-link.btn-color-outer:hover {
+    background-color: #55c1ef;
+    color: #fff;
 }
 
 /*End nav bar*/
@@ -678,6 +705,26 @@ footer a:hover {
 }
 
 /*End footr section*/
+/*Start Top page section*/
+.page-top-section {
+    background: url("../image/bg2.jpg");
+    position: relative;
+    background-size: 100% , cover;
+}
+.page-top-section h2{
+    color: #fff;
+}
+.overly{
+    position: absolute;
+    background-color: rgba(0,0,0,0.45);
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.page-top-section-container{
+    padding: 70px 0 120px 0;
+}
+/*Start Top page section*/
 /*start sitting*/
 .dark-blue {
     color: #1B4A5E !important;
@@ -693,6 +740,26 @@ footer a:hover {
 
 .light-red {
     color: #F5544A !important;
+}
+.btn-rounded{
+    border-radius: 50px;
+}
+.red-btn{
+    border-color: #F5544A;
+    color: #F5544A;
+}
+.solid-red-btn{
+    background: #F5544A;
+    color: #fff;
+    border-color: #F5544A;
+}
+.red-btn:hover{
+    background: #F5544A;
+    color: #fff;
+}
+.solid-red-btn:hover{
+    background: transparent;
+
 }
 /*End sitting*/
 
@@ -733,18 +800,22 @@ footer a:hover {
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
     }
-    .navbar-light .navbar-nav .nav-link{
+
+    .navbar-light .navbar-nav .nav-link {
         font-size: 15px;
     }
+
     #section10 {
         display: none;
     }
-    .count-section-container .count-item{
+
+    .count-section-container .count-item {
         margin-bottom: 30px;
     }
 }
+
 @media (max-width: 768px) {
-    .navbar-light .navbar-nav .nav-link{
+    .navbar-light .navbar-nav .nav-link {
         font-size: 16px;
         display: inline-block;
         margin: 5px 0;
@@ -754,10 +825,11 @@ footer a:hover {
         padding: 15px;
     }
 
-    .green-logo{
+    .green-logo {
         max-width: 150px;
     }
 }
+
 @media (max-width: 767px) {
     .navbar-collapse {
         background-color: #0F1F38;
@@ -765,6 +837,7 @@ footer a:hover {
         border-radius: 6px;
     }
 }
+
 @media (max-width: 576px) {
     .top-section img.top-section-bg {
         width: 100%;
@@ -773,55 +846,69 @@ footer a:hover {
         object-fit: cover;
         max-height: 100vh;
     }
-    .trainers-section .item{
+
+    .trainers-section .item {
         padding: 20px 30px;
     }
-    img.footer-logo{
-        margin:0 auto ;
+
+    img.footer-logo {
+        margin: 0 auto;
     }
-    footer h5{
+
+    footer h5 {
         margin-top: 15px;
     }
-    footer{
+
+    footer {
         text-align: center;
     }
-    .Brands-section{
+
+    .Brands-section {
         padding-bottom: 50px;
     }
-    .top-section-container h1{
+
+    .top-section-container h1 {
         font-size: 1.5rem;
     }
-    .top-section-container h2{
+
+    .top-section-container h2 {
         font-size: 1.4rem;
     }
-    .top-section-container .input-group{
+
+    .top-section-container .input-group {
         margin-top: 12px !important;
     }
-    .top-section-container{
+
+    .top-section-container {
         top: 55%;
     }
-    .latest-courses .controls button{
+
+    .latest-courses .controls button {
         margin: 0 1px;
         font-size: 16px;
         padding: 5px 15px;
     }
-    .latest-courses h3{
+
+    .latest-courses h3 {
         font-size: 1.4rem;
     }
-    .html5lightbox-container::before{
+
+    .html5lightbox-container::before {
         bottom: -10px;
         left: -10px;
         right: -10px;
     }
+
     .how-learn-section {
         padding-top: 40px;
         padding-bottom: 90px;
     }
-    .latest-courses,.about-section {
+
+    .latest-courses, .about-section {
         margin-bottom: 50px;
     }
 
-    .video-section{
+    .video-section {
         margin-bottom: 70px;
     }
 }
