@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004c9e07-ab1b-4454-aecf-fb6f18799df0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-course.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-course.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="854" column="20" selection-start-line="854" selection-start-column="20" selection-end-line="854" selection-end-column="20" />
+            <state relative-caret-position="432">
+              <caret line="852" column="23" selection-start-line="852" selection-start-column="23" selection-end-line="852" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -176,12 +174,12 @@
       <workItem from="1545044024122" duration="127000" />
       <workItem from="1545235492049" duration="455000" />
       <workItem from="1545299541045" duration="4146000" />
-      <workItem from="1545643922997" duration="8974000" />
+      <workItem from="1545643922997" duration="9067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77717000" />
+    <option name="totallyTimeSpent" value="77810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -370,8 +368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="854" column="20" selection-start-line="854" selection-start-column="20" selection-end-line="854" selection-end-column="20" />
+        <state relative-caret-position="432">
+          <caret line="852" column="23" selection-start-line="852" selection-start-column="23" selection-end-line="852" selection-end-column="23" />
         </state>
       </provider>
     </entry>
