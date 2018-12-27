@@ -1,5 +1,6 @@
 @import "../font/Sukar/font.css";
 @import "../css/hover-min.css";
+
 @font-face {
     font-family: Hacen;
     src: url(../font/ITCHandelGothicArabicLight.otf);
@@ -911,60 +912,89 @@ footer a:hover {
 
 /*End top-sub-page-bar*/
 /*Start specializations-right-menu*/
-.specializations-right-menu ul{
+.specializations-right-menu ul {
     margin: 0;
 }
-.specializations-right-menu ul p{
+
+.specializations-right-menu ul p {
     margin: 0;
-    font-family: Hacen-bold , 'sans-serif';
+    font-family: Hacen-bold, 'sans-serif';
     color: #1B4A5E;
     font-size: 17px;
 }
-.specializations-right-menu ul li a , .specializations-right-menu ul li p{
+
+.specializations-right-menu ul li a, .specializations-right-menu ul li p {
     display: block;
     padding: 10px 20px;
     background-color: #F8F8F8;
 }
-.specializations-right-menu ul li{
+
+.specializations-right-menu ul li {
     border-bottom: 1px solid #DBDBDB;
 }
-.specializations-right-menu ul li a{
+
+.specializations-right-menu ul li a {
     color: #363636;
 }
-.specializations-right-menu ul li a:hover{
-    background: #F5544A ;
+
+.specializations-right-menu ul li a:hover {
+    background: #F5544A;
     color: #fff;
     padding-right: 30px;
 }
-.specializations-right-menu ul li a.active-link{
-    background: #F5544A ;
+
+.specializations-right-menu ul li a.active-link {
+    background: #F5544A;
     color: #fff;
 }
 
-.specializations-left-content{
+.specializations-left-content {
     padding: 20px 5px 48px 20px;
 
 }
-.specializations-left-content p.title{
-    color: #F5544A ;
+
+.specializations-left-content p.title {
+    color: #F5544A;
     font-size: 21px;
-    font-family: Hacen-bold ,'sans-serif';
+    font-family: Hacen-bold, 'sans-serif';
 }
-.specializations-left-content a.specializations-btn{
+
+.specializations-left-content a.specializations-btn {
     color: #fff;
-    border: solid 2px #F5544A ;
+    border: solid 2px #F5544A;
     border-radius: 16px;
     padding: 5px 25px 6px 25px;
     background-color: #F5544A;
-    font-family: SukarRegular , 'sans-serif';
+    font-family: SukarRegular, 'sans-serif';
     display: inline-block;
     margin: 15px 0;
 }
-.specializations-left-content a.specializations-btn:hover{
+
+.specializations-left-content a.specializations-btn:hover {
     color: #F5544A;
     background: transparent;
+    -moz-appearance: none;
+    -webkit-appearance: none;
 }
-    /*End specializations-right-menu*/
+
+
+/*End specializations-right-menu*/
+/*Start courses-page*/
+.courses-page .top-sub-page-bar, .courses-page .specializations-right-menu ul li a.active-link,
+.courses-page .specializations-right-menu ul li a:hover,.courses-page .specializations-left-content a.specializations-btn {
+    background-color: #50C2F2;
+}
+.courses-page .specializations-left-content a.specializations-btn{
+    border-color:#50C2F2 ;
+}
+.courses-page .specializations-left-content p.title {
+    color: #50C2F2;
+}
+.courses-page .specializations-left-content a.specializations-btn:hover{
+    color: #50C2F2;
+    background: transparent;
+}
+/*End courses-page*/
 /*Start course-team*/
 .course-team .media img {
     border-radius: 16px;
@@ -991,45 +1021,48 @@ footer a:hover {
 
 /*End course-team*/
 /*Start support-section*/
-.support-section a.support-link{
+.support-section a.support-link {
     position: absolute;
     left: 8px;
     bottom: -1px;
     background: #1B4A5E;
     color: #fff;
     padding: 10px 20px;
-    border-top-right-radius:  16px;
-    border-top-left-radius:  16px;
-    font-family: SukarRegular , 'sans-serif';
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    font-family: SukarRegular, 'sans-serif';
 }
 
-.support-section a.support-link i{
+.support-section a.support-link i {
     margin-right: 5px;
     font-size: 23px;
     position: relative;
     top: 3px;
 }
+
 /*End support-section*/
 /*start sitting*/
 
-.scroll-style::-webkit-scrollbar-track
-{
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+.scroll-style::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: #F5F5F5;
 }
 
-.scroll-style::-webkit-scrollbar
-{
+.scroll-style::-webkit-scrollbar {
     width: 6px;
     background-color: #F5F5F5;
 }
 
-.scroll-style::-webkit-scrollbar-thumb
-{
+.scroll-style::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: rgba(245, 84, 74, 0.72);
+}
+
+.courses-page .scroll-style::-webkit-scrollbar-thumb {
+    background-color: rgba(80, 194, 242, 0.75);
+
 }
 
 .dark-blue {
@@ -1083,10 +1116,12 @@ footer a:hover {
     .navbar .first-list a {
         margin: 0 10px;
     }
-    .specializations-right-menu , .specializations-left-content{
+
+    .specializations-right-menu, .specializations-left-content {
         max-height: calc(100vh - 120px);
         overflow: auto;
     }
+
     .navbar ul.first-list {
         margin-right: 40px;
     }
