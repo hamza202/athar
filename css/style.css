@@ -1041,6 +1041,117 @@ footer a:hover {
 }
 
 /*End support-section*/
+/*Start lesson-section*/
+.lesson-section{
+    padding: 60px 0 90px 0;
+}
+.lesson-section #myTab{
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    border-left: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+}
+.lesson-section #myTab li a{
+    border: 0;
+    margin-bottom: 1px;
+    background-color: #eee;
+    border-radius: 0;
+    color: #8E8E8E;
+    padding-right: 1.7rem;
+    padding-left: 1.7rem;
+    font-size: 17px;
+}
+.lesson-section  #myTabContent{
+    border: 1px solid #DADADA;
+    border-top: 0;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.lesson-section #myTab li{
+    border-left: 1px solid #DADADA;
+}
+.lesson-section #myTab li a.active{
+    background-color: #1B4A5E;
+    color: #fff;
+}
+.lesson-section #myTab li:first-child a{
+    border-top-right-radius:16px ;
+}
+.lesson-section .side-menu{
+    background-color: #1B4A5E;
+    height: 100%;
+}
+.side-menu .accordion .card{
+    border-radius: 0 !important;
+    border:0;
+    border-bottom: 2px solid #1b4a5e !important;
+}
+.side-menu .accordion .card .card-header{
+    padding: 0;
+    border: 0;
+}
+.side-menu .accordion .card .card-header button{
+    display: block;
+    width: 100%;
+    text-align: right;
+    background-color: #0F1F38;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0;
+    padding: 1rem 1rem;
+    line-height: 1;
+}
+.side-menu .accordion .card .card-header button i{
+    transition: all ease-in-out 0.3s;
+    margin-left: 5px;
+}
+.side-menu .accordion .card .card-header button.collapsed i{
+    transform: rotate(-180deg);
+}
+.side-menu .accordion .card .card-body{
+    padding: 0;
+}
+.side-menu .accordion .card .card-body ul{
+    margin: 0;
+}
+.side-menu .accordion .card .card-body ul li a{
+    display: block;
+    background-color: #1B4A5E ;
+    color: #fff;
+    padding: 1rem;
+}
+.side-menu .accordion .card .card-body ul li a:hover{
+    padding-right: 1.4rem;
+}
+
+.side-menu .accordion .card .card-body ul li:not(:first-child) {
+    border-top: 2px solid #0F1F38 ;
+}
+.lesson-section #myTab2 a{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #dadada;
+    color: #8E8E8E;
+}
+.lesson-section #myTab2 a.active{
+    color: #1B4A5E;
+}
+.lesson-section #myTab2 a i{
+    margin-left: 5px;
+}
+.lesson-section #myTabContent2{
+    padding: 2rem;
+}
+.lesson-section #myTab2 li:first-child a{
+    border-left: 1px solid #DADADA;
+}
+.lesson-section #myTab2 li{
+    width: 50%;
+    text-align: center;
+}
+    /*End lesson-section*/
 /*start sitting*/
 
 .scroll-style::-webkit-scrollbar-track {
