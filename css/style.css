@@ -1151,6 +1151,71 @@ footer a:hover {
     width: 50%;
     text-align: center;
 }
+.lesson-question .custom-radio{
+    background-color: #F2F2F2;
+    padding-right: 2rem;
+    margin-bottom: 0.5rem;
+}
+.lesson-question .custom-radio label{
+    display: block;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+.lesson-question .custom-control-label::before,
+.lesson-question .custom-control-label::after{
+    top: 0.75rem;
+}
+.lesson-question .custom-control-label::after{
+    border: 1px solid #8E8E8E;
+    border-radius: 50%;
+}
+.lesson-question .custom-radio .custom-control-input:checked ~ .custom-control-label::before{
+    background-color: #00e899;
+}
+.lesson-question  .custom-control-label::before{
+    background-color: #fff;
+}
+.lesson-question p.color-dark-blue{
+    font-family: Hacen-bold , 'sans-serif';
+    font-size: 16px;
+}
+.lesson-question  .custom-control-label{
+    font-family: Hacen ,'sans-serif';
+}
+.lesson-question-button .solid-red-btn{
+    border: 2px solid #F5544A;
+    border-radius: 16px;
+    padding: 5px 25px 6px 25px;
+}
+.lesson-question-button .solid-red-btn:hover{
+    color: #F5544A;
+}
+.lesson-question-button button{
+    transition: all 0.3s ease-in-out ;
+}
+.lesson-question-button button:hover{
+    cursor: pointer;
+}
+.lesson-question-button .save-btn{
+    border: 2px solid #B2B2B2;
+    color: #B2B2B2;
+    background: transparent;
+    border-radius: 16px;
+    padding: 5px 25px 6px 25px;
+}
+.lesson-question-button .save-btn:hover{
+    background-color: #B2B2B2;
+    color: #fff;
+}
+.specialization-info p.color-dark-blue{
+    font-size: 17px;
+    font-family: Hacen-bold , 'sans-serif';
+}
+.date-list li{
+    color: #8E8E8E;
+}
+.specialization-info .specialization-info-container:not(:last-child){
+    border-bottom: 1px solid #E9E9E9;
+}
     /*End lesson-section*/
 /*start sitting*/
 
@@ -1195,7 +1260,9 @@ footer a:hover {
 .btn-rounded {
     border-radius: 50px;
 }
-
+.p-2rem{
+    padding: 2rem;
+}
 .red-btn {
     border-color: #F5544A;
     color: #F5544A;
@@ -1211,11 +1278,24 @@ footer a:hover {
     background: #F5544A;
     color: #fff;
 }
-
+.red-color{
+    color: #F5544A !important;
+}
 .solid-red-btn:hover {
     background: transparent;
 }
-
+.color-dark-blue{
+    color: #1B4A5E;
+}
+.pr-2rem{
+    padding-right: 2rem;
+}
+.pl-2rem{
+    padding-left: 2rem;
+}
+.pt-2rem{
+    padding-top: 2rem;
+}
 /*End sitting*/
 
 /*Start media query*/
