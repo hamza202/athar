@@ -16,10 +16,11 @@
 </head>
 <body>
 <div class="page-container ">
-    <nav class="navbar navbar-expand-md navbar-light ">
+    <nav class="navbar navbar-expand-md navbar-light shadow-sm ">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img class="img-fluid" src="image/logo.png" alt="">
+                <h5>أثر</h5>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,16 +35,22 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">المساقات</a>
                     </li>
-                </ul>
-                <ul class="navbar-nav mr-auto second-list">
-                    <li class="nav-item log-in-link ">
-                        <a class="nav-link btn-color-outer" href="#">تسجيل الدخول</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">الأخبار</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">المدربين</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">مساعدة</a>
+                        <a class="nav-link" href="#">من نحن</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">اتصل بنا</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-auto second-list">
+                    <li class="nav-item log-in-link ">
+                        <a class="nav-link btn-color-outer"  data-toggle="modal" data-target="#exampleModalCenter">تسجيل الدخول</a>
                     </li>
                 </ul>
 
@@ -904,7 +911,38 @@
         </div>
     </div>
 </footer>
-
+<!--MODAL-->
+<div class="modal fade login-modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4>تسجيل الدخول</h4>
+                <a class="face-login-btn" href="#">سجل دخول بحساب الفيس بوك <i class="fab fa-facebook-f"></i></a>
+                <span class="login-or">
+                    أو
+                </span>
+            </div>
+            <div class="modal-body">
+                <form action="#">
+                    <div class="login-modal-form">
+                        <input name="l_username" placeholder="اسم المستخدم" type="text">
+                        <input name="l_password" placeholder="كلمة المرور" type="password">
+                        <button type="submit" class="reply-button">دخول</button>
+                    </div>
+                </form>
+                <ul class="list-inline login-list">
+                    <li class="list-inline-item float-right"><a href="#">نسيت كلمة المرور ؟</a></li>
+                    <li class="list-inline-item float-left"><a href="#">لا تملك حساب ؟ سجل الأن</a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--END MODAL-->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
