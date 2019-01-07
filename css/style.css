@@ -1473,8 +1473,9 @@ button{
     border-bottom: 2px solid #00E899;
 }
 .login-modal-form .reply-button{
-    background: #00E899;
+    background: transparent;
     border-color:#00E899 ;
+    color: #00E899;
     display: block;
     text-align: center;
     width: 80%;
@@ -1482,8 +1483,8 @@ button{
     padding: 7px 25px 8px 25px;
 }
 .login-modal-form .reply-button:hover{
-    color: #00E899;
-    background: transparent;
+    color: #fff;
+    background: #00E899;
 }
 .login-list{
     width: 80%;
@@ -1520,9 +1521,9 @@ button{
     box-shadow: 0 0 0 0.2rem rgba(0, 232, 153, 0.25);
 }
 .register-container .input-group-text{
-    background-color: #55c1ef;
-    border-color:#55c1ef;
-    color: #fff;
+    background-color: transparent;
+    border-color: #ced4da;
+    color: #414042;
     width: 40px;
     padding: 0;
     justify-content: center;
@@ -1543,6 +1544,7 @@ button{
     color: #F5544A;
     font-family: Hacen-Regular , 'sans-serif';
 }
+
 .parsley-error , .parsley-error:focus{
     color: #F5544A !important;
     border-color: #f5544a !important;
@@ -1650,7 +1652,10 @@ button{
 .pt-2rem {
     padding-top: 2rem;
 }
-
+.register-container .reply-button:hover{
+    color: #fff !important;
+    background-color: #00E899 !important;
+}
 /*End sitting*/
 
 /*Start media query*/
