@@ -1585,6 +1585,12 @@ button{
      border-radius: 16px;
      padding: 5px 25px 7px 25px;
      transition: all ease-out .4s;
+     -webkit-transform: translateY(0);
+     -moz-transform: translateY(0);
+     -ms-transform: translateY(0);
+     -o-transform: translateY(0);
+     transform: translateY(0);
+     -webkit-font-smoothing: subpixel-antialiased;
  }
  .date-list2 li{
      color: #F5544A;
@@ -1601,6 +1607,7 @@ button{
      -ms-transform: translateY(-2px);
      -o-transform: translateY(-2px);
      transform: translateY(-2px);
+     -webkit-font-smoothing: subpixel-antialiased;
  }
  .my-card-link.disabled{
      background-color: transparent;
