@@ -1618,6 +1618,17 @@ button{
 .all-specialty-section.all-courses-section .date-list2 li{
     color: #50C2F2;
 }
+.my-card{
+    -o-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transition: all ease 0.3s;
+}
+.my-card:hover{
+    -o-transform: scale(1.03, 1.03);
+    -moz-transform: scale(1.03, 1.03);
+    transform: scale(1.03, 1.03);
+}
 /*End all-specialty-section*/
 /*start sitting*/
 .scroll-style::-webkit-scrollbar-track {
