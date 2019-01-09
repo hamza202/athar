@@ -1571,7 +1571,8 @@ button{
 }
 .all-specialty-section .courses-card-img span{
     background: #F5544A;
-}.all-specialty-section .courses-card-img img{
+}
+.all-specialty-section .courses-card-img img{
     height: auto;
      width: auto;
     border-radius: 0;
@@ -1606,6 +1607,17 @@ button{
      color: #F5544A;
      border: 2px solid #F5544A;
  }
+ .all-specialty-section.all-courses-section .courses-card-img span,.all-specialty-section.all-courses-section .my-card-link{
+     background: #50C2F2;
+ }
+.all-specialty-section.all-courses-section .my-card-link.disabled{
+    background: transparent;
+    color: #50C2F2;
+    border: 2px solid #50C2F2;
+}
+.all-specialty-section.all-courses-section .date-list2 li{
+    color: #50C2F2;
+}
 /*End all-specialty-section*/
 /*start sitting*/
 .scroll-style::-webkit-scrollbar-track {
