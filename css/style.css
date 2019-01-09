@@ -1764,6 +1764,10 @@ button {
 .news-box-section .card .light-blue:hover i{
     opacity: 1;
 }
+.news-details-top img{
+    width: 100%;
+
+}
 /*End news-section*/
 /*start sitting*/
 .scroll-style::-webkit-scrollbar-track {
@@ -1848,7 +1852,9 @@ button {
     color: #00E899;
     background-color: transparent;
 }
-
+.gray-color{
+    color: #8E8E8E;
+}
 .red-color {
     color: #F5544A !important;
 }
