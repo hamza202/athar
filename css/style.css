@@ -1892,6 +1892,9 @@ button.dell {
     padding: 0;
     border-radius: 0;
 }
+.hvr-icon-push{
+    display: block;
+}
 /*End student-gate-section*/
 /*start sitting*/
 .scroll-style::-webkit-scrollbar-track {
