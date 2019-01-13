@@ -1747,28 +1747,149 @@ button {
     width: 100%;
     object-fit: cover;
 }
-.news-box-section .card .light-blue{
+
+.news-box-section .card .light-blue {
     position: relative;
 }
-.news-box-section .card .light-blue i{
+
+.news-box-section .card .light-blue i {
     transition: all ease-in-out 0.3s;
     opacity: 0;
     position: absolute;
     left: 0;
     top: 7px;
 }
-.news-box-section .card .light-blue:hover{
+
+.news-box-section .card .light-blue:hover {
     color: #50C2F2;
     padding-left: 15px;
 }
-.news-box-section .card .light-blue:hover i{
+
+.news-box-section .card .light-blue:hover i {
     opacity: 1;
 }
-.news-details-top img{
+
+.news-details-top img {
     width: 100%;
 
 }
+
 /*End news-section*/
+/*Start student-gate-section*/
+.student-gate-section .my-card h4.card-title {
+    font-size: 19px;
+}
+
+.student-gate-section .my-card h4.card-title a {
+    color: #363636;
+}
+
+.student-gate-section .my-card.specialty-card h4.card-title a:hover {
+    color: #F5544A;
+}
+
+.student-gate-section .my-card p {
+    font-size: 15px;
+}
+
+.student-gate-section .date-list2 li {
+    font-size: 15px;
+}
+
+button.dell {
+    color: #F5544A;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.student-gate-section .my-card.course-card h4.card-title a:hover {
+    color: #50C2F2;
+}
+
+.student-gate-section .my-card.course-card .courses-card-img span {
+    background: #50C2F2;
+}
+
+.page-container {
+    min-height: calc(100vh - 159px);
+}
+
+.student-gate-section .my-card.course-card .date-list2 li:not(:last-child) {
+    color: #50C2F2;
+}
+.student-gate-tap a{
+    color: #B2B2B2;
+}
+.student-gate-tap a{
+    padding: 12px 40px;
+    display: inline-block;
+    position: relative;
+}
+.student-gate-top-bar {
+    background-color: #F8F8F8;
+}
+.student-gate-tap a:hover{
+    color: #00E899;
+}
+.student-gate-tap a.active-tap-link{
+    color: #00E899;
+}
+.student-gate-tap a.active-tap-link::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color:#00E899 ;
+    display: block;
+    left: 0;
+    bottom: 0;
+}
+.student-gate-tap a.active-tap-link::after{
+    content: '';
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -13px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #00E899 transparent transparent transparent;
+}
+.option-dropdown button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #B2B2B2;
+    padding: 11px 0;
+    font-family: Hacen-bold , 'sans-serif';
+}
+.option-dropdown button i{
+    margin-left: 2px;
+    position: relative;
+    top: 1px;
+}
+.option-dropdown.show button{
+    color: #363636;
+}
+.option-dropdown .dropdown-item{
+    background-color: #00E899;
+    color: #fff;
+    padding: 0.25rem 1rem;
+}
+.option-dropdown .dropdown-menu a:not(:last-child){
+    border-bottom: 1px solid #FFFFFF;
+}
+.option-dropdown .dropdown-toggle::after{
+    vertical-align: 2px;
+}
+.option-dropdown  .dropdown-menu{
+    padding: 0;
+    border-radius: 0;
+}
+/*End student-gate-section*/
 /*start sitting*/
 .scroll-style::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -1852,9 +1973,11 @@ button {
     color: #00E899;
     background-color: transparent;
 }
-.gray-color{
+
+.gray-color {
     color: #8E8E8E;
 }
+
 .red-color {
     color: #F5544A !important;
 }
@@ -1874,15 +1997,19 @@ button {
 .pl-2rem {
     padding-left: 2rem;
 }
-.light-blue{
+
+.light-blue {
     color: #50C2F2;
 }
+
 .pt-2rem {
     padding-top: 2rem;
 }
-.dark-color{
+
+.dark-color {
     color: #363636;
 }
+
 .register-container .reply-button:hover {
     color: #fff !important;
     background-color: #00E899 !important;
