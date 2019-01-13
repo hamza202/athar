@@ -2096,7 +2096,12 @@ button.dell {
         display: inline-block;
         margin: 5px 0;
     }
-
+    .student-gate-tap{
+        text-align: center;
+    }
+    .student-gate-tap li a{
+        padding: 12px 20px;
+    }
     .about-section-container {
         padding: 15px;
     }
