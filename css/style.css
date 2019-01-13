@@ -1879,6 +1879,9 @@ button.dell {
     color: #fff;
     padding: 0.25rem 1rem;
 }
+.option-dropdown .dropdown-menu a i{
+    margin-left: 6px;
+}
 .option-dropdown .dropdown-menu a:not(:last-child){
     border-bottom: 1px solid #FFFFFF;
 }
