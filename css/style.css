@@ -1802,6 +1802,7 @@ button.dell {
     border: 0;
     outline: 0;
     cursor: pointer;
+    padding: 1px;
 }
 
 .student-gate-section .my-card.course-card h4.card-title a:hover {
@@ -1895,6 +1896,11 @@ button.dell {
 .hvr-icon-push{
     display: block;
 }
+.dell.hvr-underline-from-center:before{
+    bottom: 2px;
+    background: #F5544A;
+    height: 2px;
+}
 /*End student-gate-section*/
 /*start sitting*/
 .scroll-style::-webkit-scrollbar-track {
@@ -1918,11 +1924,20 @@ button.dell {
     background-color: rgba(80, 194, 242, 0.75);
 
 }
-
+.hvr-underline-from-center{
+    transform: none;
+    -o-transform:none ;
+    -webkit-transform: none;
+}
 .dark-blue {
     color: #1B4A5E !important;
 }
-
+.swal2-icon.swal2-success [class^=swal2-success-line]{
+    background-color: #00e899 !important;
+}
+.swal2-icon.swal2-success {
+    border-color: #00e899 !important;
+}
 .my-shadow {
     box-shadow: 0 0.3rem 0.7rem rgba(0, 0, 0, 0.15) !important;
     -webkit-box-shadow: 0 0.3rem 0.7rem rgba(0, 0, 0, 0.15);
