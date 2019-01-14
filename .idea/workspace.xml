@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="004c9e07-ab1b-4454-aecf-fb6f18799df0" name="Default Changelist" comment="" />
+    <list default="true" id="004c9e07-ab1b-4454-aecf-fb6f18799df0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/certificate-print.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificate-print.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/certificate-print.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="71" column="55" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
+            <state relative-caret-position="443">
+              <caret line="68" column="95" selection-start-line="68" selection-start-column="95" selection-end-line="68" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -201,12 +203,12 @@
       <workItem from="1547333048655" duration="12901000" />
       <workItem from="1547375095586" duration="994000" />
       <workItem from="1547387888922" duration="3535000" />
-      <workItem from="1547437339437" duration="3249000" />
+      <workItem from="1547437339437" duration="3423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181940000" />
+    <option name="totallyTimeSpent" value="182114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -570,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/certificate-print.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="71" column="55" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
+        <state relative-caret-position="443">
+          <caret line="68" column="95" selection-start-line="68" selection-start-column="95" selection-end-line="68" selection-end-column="95" />
         </state>
       </provider>
     </entry>
