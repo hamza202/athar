@@ -1914,6 +1914,24 @@ button.dell {
     color: #00E899;
 }
 /*End trainer-conversations-section*/
+/*Start certificate-section*/
+.certificate-section .my-card-link.disabled{
+    color: #00E899;
+    border: 2px solid #00E899;
+}
+.certificate-section .course-card .courses-card-img span{
+    background-color: #50C2F2;
+}
+.certificate-section .card-title a{
+    color: #363636;
+}
+.certificate-section .course-card .card-title a:hover{
+    color: #50C2F2;
+}
+.certificate-section  .specialty-card .card-title a:hover{
+    color: #F5544A;
+}
+/*End certificate-section*/
 /*start sitting*/
 .scroll-style::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -2014,7 +2032,7 @@ button.dell {
 }
 
 .gray-color {
-    color: #8E8E8E;
+    color: #8E8E8E !important;
 }
 
 .red-color {
