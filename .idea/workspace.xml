@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="004c9e07-ab1b-4454-aecf-fb6f18799df0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="004c9e07-ab1b-4454-aecf-fb6f18799df0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +10,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="228">
               <caret line="1931" column="12" lean-forward="true" selection-start-line="1931" selection-start-column="12" selection-end-line="1931" selection-end-column="12" />
             </state>
           </provider>
@@ -24,13 +22,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/certificate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="159" column="83" selection-start-line="159" selection-start-column="69" selection-end-line="159" selection-end-column="83" />
+            <state relative-caret-position="404">
+              <caret line="248" column="6" lean-forward="true" selection-start-line="248" selection-start-column="6" selection-end-line="248" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/certificate-print.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="71" column="55" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -98,12 +106,13 @@
         <option value="$PROJECT_DIR$/all-courses.html" />
         <option value="$PROJECT_DIR$/student-gate.html" />
         <option value="$PROJECT_DIR$/trainer-conversations.html" />
-        <option value="$PROJECT_DIR$/certificate.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/certificate.html" />
+        <option value="$PROJECT_DIR$/certificate-print.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -192,12 +201,12 @@
       <workItem from="1547333048655" duration="12901000" />
       <workItem from="1547375095586" duration="994000" />
       <workItem from="1547387888922" duration="3535000" />
-      <workItem from="1547437339437" duration="2763000" />
+      <workItem from="1547437339437" duration="3249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181454000" />
+    <option name="totallyTimeSpent" value="181940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -539,22 +548,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="1931" column="12" lean-forward="true" selection-start-line="1931" selection-start-column="12" selection-end-line="1931" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/certificate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="159" column="83" selection-start-line="159" selection-start-column="69" selection-end-line="159" selection-end-column="83" />
+        <state relative-caret-position="404">
+          <caret line="248" column="6" lean-forward="true" selection-start-line="248" selection-start-column="6" selection-end-line="248" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/certificate-print.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="1931" column="12" lean-forward="true" selection-start-line="1931" selection-start-column="12" selection-end-line="1931" selection-end-column="12" />
+        <state relative-caret-position="290">
+          <caret line="71" column="55" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
         </state>
       </provider>
     </entry>
