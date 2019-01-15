@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/footer-logo.png">
+    <title>منصة أثر</title>
+</head>
+<body>
+<div class="page-container ">
+    <nav class="navbar navbar-expand-md navbar-light shadow-sm ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid" src="image/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto first-list">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">التخصصات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">المساقات</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">الأخبار</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">المدربين</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">اتصل بنا</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-auto second-list">
+                    <li class="nav-item log-in-link ">
+                        <a class="nav-link btn-color-outer" data-toggle="modal" data-target="#exampleModalCenter">تسجيل
+                            الدخول</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="register-container edit-profile-section mb-5 ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                    <h3 class="pb-3">إعدادات الحساب</h3>
+                    <p class="mb-5">تتضمّن هذه الإعدادات معلومات أساسية عن حسابك، ويمكنك أيضًا إدخال معلومات إضافية
+                        ورؤية حسابات التواصل الاجتماعي خاصتك المربوطة مع حسابك.</p>
+
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <h5 class="Hacen-bold mb-3 pt-3">معلومات الحساب الأساسية </h5>
+                    <form action="#" id="register-form" data-parsley-validate="" data-parsley-trigger="keyup , change">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-5 col-md-6">
+                                <label for="user_name">اسم المستخدم</label>
+                                <div class="input-group  pb-2">
+                                    <input type="text" class="form-control my-focus" placeholder="اسم المستخدم"
+                                           aria-label="اسم المستخدم" id="user_name" aria-describedby="basic-addon2"
+                                           disabled value="حمزة ابو عيطة" required="">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i
+                                                class="fal fa-user"></i></span>
+                                    </div>
+                                </div>
+                                <small class="mb-md-5 mb-4 d-block gray-color Hacen-Regular">
+                                    الاسم الذي يعرّف عنك في المنصة. لا يمكنك تغيير اسم المستخدم الخاص بك
+                                </small>
+                            </div>
+                            <div class="col-lg-5 col-md-6">
+                                <label for="edit_email">عنوان البريد الإلكتروني</label>
+                                <div class="input-group pb-2">
+                                    <input type="email" id="edit_email" disabled value="h@hotmail.com"
+                                           class="form-control my-focus" placeholder="البريد الإلكتروني" required=""
+                                           aria-label="البريد الإلكتروني" aria-describedby="basic-addon3">
+                                    <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon3"><i
+                                        class="fal fa-envelope-open"></i></span>
+                                    </div>
+                                </div>
+                                <small class="mb-md-5 mb-4 d-block gray-color Hacen-Regular">
+                                    البريد الإلكتروني الذي تستخدمه لتسجيل دخولك. تُرسَل جميع المراسلات من المنصة
+                                    ومساقاتك إلى هذا العنوان.
+                                </small>
+                            </div>
+                            <div class="col-lg-5 col-md-6">
+                                <label for="edit_pass">كلمة المرور</label>
+                                <div class="input-group  pb-2">
+                                    <input type="button" id="edit_pass"  class="form-control my-focus"
+                                           value="تغير كلمة المرور"
+                                           aria-label="كلمة المرور" aria-describedby="basic-addon4">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon4"><i class="fal fa-lock-alt"></i></span>
+                                    </div>
+                                </div>
+                                <small class="mb-md-5 mb-4 d-block gray-color Hacen-Regular">
+                                    عندما تنقر على "إعادة ضبط كلمة السر"، ستصل رسالة لبريدك الإلكتروني. يُرجى عندها
+                                    النقر على الرابط الموجود في الرسالة لتغيّرها.
+                                </small>
+                            </div>
+                            <div class="col-lg-5 col-md-6">
+                                <label for="edit_pass">الدولة</label>
+                                <div class="input-group mb-4 pb-2">
+                                    <select id="edit_select" class="custom-select my-focus"
+                                            required="">
+                                        <option value="1">السعودية</option>
+                                        <option value="2" selected>فلسطين</option>
+                                        <option value="3">مصر</option>
+                                    </select>
+                                    <div class="input-group-append">
+                                        <label class="input-group-text" for="edit_select"><i
+                                                class="fal fa-globe"></i></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="support-section">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="position-relative">
+                    <a class="support-link hvr-wobble-horizontal" href="#">
+                        مركز المساعدة
+                        <i class="fal fa-life-ring"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer dark-blue-bg  pt-4 pb-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white">اتصل بنا</h5>
+                <ul class="list-inline mb-3 mb-lg-0 footer-social">
+                    <li class="list-inline-item">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white">الخدمات</h5>
+                <ul class="list-unstyled mb-3 mb-lg-0">
+                    <li>
+                        <a href="#">خدمات</a>
+                    </li>
+                    <li>
+                        <a href="#">خدمات</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white">عنا</h5>
+                <ul class="list-unstyled mb-3 mb-lg-0">
+                    <li>
+                        <a href="#">تواصل معنا</a>
+                    </li>
+                    <li>
+                        <a href="#">سياسة الخصوصية</a>
+                    </li>
+                    <li>
+                        <a href="#">شروط واحكام</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img class="footer-logo img-fluid d-block mb-1" src="image/footer-logo.png" alt="">
+                <p class="mb-3 mb-lg-0">جميع الحقوق محفوظة 2018</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--MODAL-->
+<div class="modal fade login-modal" id="exampleModalCenter" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4>تسجيل الدخول</h4>
+                <a class="face-login-btn" href="#">سجل دخول بحساب الفيس بوك <i class="fab fa-facebook-f"></i></a>
+                <span class="login-or">
+                    أو
+                </span>
+            </div>
+            <div class="modal-body">
+                <form action="#">
+                    <div class="login-modal-form">
+                        <input name="l_username" placeholder="اسم المستخدم" type="text">
+                        <input name="l_password" placeholder="كلمة المرور" type="password">
+                        <button type="submit" class="reply-button">دخول</button>
+                    </div>
+                </form>
+                <ul class="list-inline login-list">
+                    <li class="list-inline-item float-right"><a href="#">نسيت كلمة المرور ؟</a></li>
+                    <li class="list-inline-item float-left"><a href="#">لا تملك حساب ؟ سجل الأن</a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--END MODAL-->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/parsley.min.js"></script>
+<script src="js/sweetalert2.all.min.js"></script>
+<script>
+    $("#edit_pass").on("click", function () {
+        Swal({
+            position: 'center',
+            type: 'success',
+            text: 'تم ارسال رابط اعادة تعيين كلمة المرور الى بريدك',
+            showConfirmButton: false,
+            timer: 4000
+        }).then(
+            $(this).attr("disabled", true)
+        )
+    });
+</script>
+</body>
+</html>

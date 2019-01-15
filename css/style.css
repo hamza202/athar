@@ -23,7 +23,9 @@
 .Hacen-bold {
     font-family: Hacen-bold, 'sans-serif' !important;
 }
-
+.Hacen-Regular{
+    font-family: Hacen-Regular, 'sans-serif' !important;
+}
 .sukar-bold {
     font-family: SukarBold, 'sans-serif' !important;
 }
@@ -1932,6 +1934,29 @@ button.dell {
     color: #F5544A;
 }
 /*End certificate-section*/
+/*Start edit-profile-section*/
+.edit-profile-section label{
+    font-family: Hacen-Regular , 'sans-serif';
+}
+.edit-profile-section small{
+    font-size: 16px;
+}
+.edit-profile-section .form-control:disabled{
+    background-color: transparent;
+}
+.edit-profile-section #edit_pass{
+    background-color: #00E899 ;
+    color: #fff;
+    text-align: right;
+    cursor: pointer;
+}
+.edit-profile-section #edit_select{
+    color: #00E899;
+}
+#swal2-content{
+    font-family: Hacen-Regular , 'sans-serif';
+}
+    /*End edit-profile-section*/
 /*start sitting*/
 .scroll-style::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);

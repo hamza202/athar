@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004c9e07-ab1b-4454-aecf-fb6f18799df0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/certificate-print.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificate-print.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="1931" column="12" lean-forward="true" selection-start-line="1931" selection-start-column="12" selection-end-line="1931" selection-end-column="12" />
+            <state relative-caret-position="-3524">
+              <caret line="1950" column="19" selection-start-line="1950" selection-start-column="19" selection-end-line="1950" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -25,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/certificate.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="404">
-              <caret line="248" column="6" lean-forward="true" selection-start-line="248" selection-start-column="6" selection-end-line="248" selection-end-column="6" />
+              <caret line="248" column="6" selection-start-line="248" selection-start-column="6" selection-end-line="248" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -37,10 +37,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/certificate-print.html">
+        <entry file="file://$PROJECT_DIR$/edit-profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="68" column="95" selection-start-line="68" selection-start-column="95" selection-end-line="68" selection-end-column="95" />
+            <state relative-caret-position="247">
+              <caret line="108" column="72" selection-start-line="108" selection-start-column="72" selection-end-line="108" selection-end-column="72" />
+              <folding>
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student-gate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="394" column="4" selection-start-line="394" selection-start-column="4" selection-end-line="394" selection-end-column="40" />
+              <folding>
+                <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,8 +66,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.navbar .second-list li:last-child a::before</find>
-      <find>.navbar .first-list a</find>
       <find>nav</find>
       <find>nav ul.second-list li a.nav-link.btn-color-outer</find>
       <find>.navbar .second-list a.btn-color-outer</find>
@@ -79,9 +94,12 @@
       <find>.talking-container .card-header button .comments-number i</find>
       <find>.my-card-link.disabled</find>
       <find>gray</find>
+      <find>col-md-5</find>
+      <find>edit-profile-section</find>
     </findStrings>
     <replaceStrings>
       <replace>.scroll-style</replace>
+      <replace>col-lg-5 col-md-6</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -108,13 +126,14 @@
         <option value="$PROJECT_DIR$/all-courses.html" />
         <option value="$PROJECT_DIR$/student-gate.html" />
         <option value="$PROJECT_DIR$/trainer-conversations.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/certificate.html" />
         <option value="$PROJECT_DIR$/certificate-print.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/edit-profile.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -204,17 +223,18 @@
       <workItem from="1547375095586" duration="994000" />
       <workItem from="1547387888922" duration="3535000" />
       <workItem from="1547437339437" duration="3423000" />
+      <workItem from="1547507622452" duration="6110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182114000" />
+    <option name="totallyTimeSpent" value="188224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20499243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -436,13 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Mushini/Mushini/js/map_restaurants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="268" column="17" selection-start-line="268" selection-start-column="17" selection-end-line="268" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mushini/Mushini/js/map_restaurants.js" />
     <entry file="file://$PROJECT_DIR$/font/Sukar/font.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -458,17 +472,6 @@
             <element signature="n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student-gate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="109" selection-start-line="75" selection-start-column="109" selection-end-line="75" selection-end-column="109" />
-          <folding>
-            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -550,17 +553,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/certificate-print.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="1931" column="12" lean-forward="true" selection-start-line="1931" selection-start-column="12" selection-end-line="1931" selection-end-column="12" />
+        <state relative-caret-position="443">
+          <caret line="68" column="95" selection-start-line="68" selection-start-column="95" selection-end-line="68" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/certificate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
-          <caret line="248" column="6" lean-forward="true" selection-start-line="248" selection-start-column="6" selection-end-line="248" selection-end-column="6" />
+          <caret line="248" column="6" selection-start-line="248" selection-start-column="6" selection-end-line="248" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -570,10 +573,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/certificate-print.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="68" column="95" selection-start-line="68" selection-start-column="95" selection-end-line="68" selection-end-column="95" />
+        <state relative-caret-position="-3524">
+          <caret line="1950" column="19" selection-start-line="1950" selection-start-column="19" selection-end-line="1950" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student-gate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="394" column="4" selection-start-line="394" selection-start-column="4" selection-end-line="394" selection-end-column="40" />
+          <folding>
+            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="108" column="72" selection-start-line="108" selection-start-column="72" selection-end-line="108" selection-end-column="72" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
