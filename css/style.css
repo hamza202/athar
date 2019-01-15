@@ -23,9 +23,11 @@
 .Hacen-bold {
     font-family: Hacen-bold, 'sans-serif' !important;
 }
-.Hacen-Regular{
+
+.Hacen-Regular {
     font-family: Hacen-Regular, 'sans-serif' !important;
 }
+
 .sukar-bold {
     font-family: SukarBold, 'sans-serif' !important;
 }
@@ -1822,34 +1824,41 @@ button.dell {
 .student-gate-section .my-card.course-card .date-list2 li:not(:last-child) {
     color: #50C2F2;
 }
-.student-gate-tap a{
+
+.student-gate-tap a {
     color: #B2B2B2;
 }
-.student-gate-tap a{
+
+.student-gate-tap a {
     padding: 12px 40px;
     display: inline-block;
     position: relative;
 }
+
 .student-gate-top-bar {
     background-color: #F8F8F8;
 }
-.student-gate-tap a:hover{
+
+.student-gate-tap a:hover {
     color: #00E899;
 }
-.student-gate-tap a.active-tap-link{
+
+.student-gate-tap a.active-tap-link {
     color: #00E899;
 }
-.student-gate-tap a.active-tap-link::before{
+
+.student-gate-tap a.active-tap-link::before {
     content: '';
     position: absolute;
     width: 100%;
     height: 3px;
-    background-color:#00E899 ;
+    background-color: #00E899;
     display: block;
     left: 0;
     bottom: 0;
 }
-.student-gate-tap a.active-tap-link::after{
+
+.student-gate-tap a.active-tap-link::after {
     content: '';
     position: absolute;
     display: block;
@@ -1860,103 +1869,146 @@ button.dell {
     border-style: solid;
     border-color: #00E899 transparent transparent transparent;
 }
-.option-dropdown button{
+
+.option-dropdown button {
     background: transparent;
     border: 0;
     outline: 0;
     cursor: pointer;
     color: #B2B2B2;
     padding: 11px 0;
-    font-family: Hacen-bold , 'sans-serif';
+    font-family: Hacen-bold, 'sans-serif';
 }
-.option-dropdown button i{
+
+.option-dropdown button i {
     margin-left: 2px;
     position: relative;
     top: 1px;
 }
-.option-dropdown.show button{
+
+.option-dropdown.show button {
     color: #363636;
 }
-.option-dropdown .dropdown-item{
+
+.option-dropdown .dropdown-item {
     background-color: #00E899;
     color: #fff;
     padding: 0.25rem 1rem;
 }
-.option-dropdown .dropdown-menu a i{
+
+.option-dropdown .dropdown-menu a i {
     margin-left: 6px;
 }
-.option-dropdown .dropdown-menu a:not(:last-child){
+
+.option-dropdown .dropdown-menu a:not(:last-child) {
     border-bottom: 1px solid #FFFFFF;
 }
-.option-dropdown .dropdown-toggle::after{
+
+.option-dropdown .dropdown-toggle::after {
     vertical-align: 2px;
 }
-.option-dropdown  .dropdown-menu{
+
+.option-dropdown .dropdown-menu {
     padding: 0;
     border-radius: 0;
 }
-.hvr-icon-push{
+
+.hvr-icon-push {
     display: block;
 }
-.dell.hvr-underline-from-center:before{
+
+.dell.hvr-underline-from-center:before {
     bottom: 2px;
     background: #F5544A;
     height: 2px;
 }
+
 /*End student-gate-section*/
 /*Start trainer-conversations-section*/
-.trainer-conversations-section .courses-date-container ul{
+.trainer-conversations-section .courses-date-container ul {
     margin-bottom: 0;
     margin-top: 9px;
 }
-.trainer-conversations-section .courses-date-container a{
+
+.trainer-conversations-section .courses-date-container a {
     margin-bottom: 15px;
 }
-.trainer-conversations-section  .courses-date-container ul li{
+
+.trainer-conversations-section .courses-date-container ul li {
     color: #00E899;
 }
+
 /*End trainer-conversations-section*/
 /*Start certificate-section*/
-.certificate-section .my-card-link.disabled{
+.certificate-section .my-card-link.disabled {
     color: #00E899;
     border: 2px solid #00E899;
 }
-.certificate-section .course-card .courses-card-img span{
+
+.certificate-section .course-card .courses-card-img span {
     background-color: #50C2F2;
 }
-.certificate-section .card-title a{
+
+.certificate-section .card-title a {
     color: #363636;
 }
-.certificate-section .course-card .card-title a:hover{
+
+.certificate-section .course-card .card-title a:hover {
     color: #50C2F2;
 }
-.certificate-section  .specialty-card .card-title a:hover{
+
+.certificate-section .specialty-card .card-title a:hover {
     color: #F5544A;
 }
+
 /*End certificate-section*/
 /*Start edit-profile-section*/
-.edit-profile-section label{
-    font-family: Hacen-Regular , 'sans-serif';
+.edit-profile-section label {
+    font-family: Hacen-Regular, 'sans-serif';
 }
-.edit-profile-section small{
+
+.edit-profile-section small {
     font-size: 16px;
 }
-.edit-profile-section .form-control:disabled{
+
+.edit-profile-section .form-control:disabled {
     background-color: transparent;
 }
-.edit-profile-section #edit_pass{
-    background-color: #00E899 ;
+
+.edit-profile-section #edit_pass {
+    background-color: #00E899;
     color: #fff;
     text-align: right;
     cursor: pointer;
 }
-.edit-profile-section #edit_select{
+
+.edit-profile-section #edit_select {
     color: #00E899;
 }
-#swal2-content{
-    font-family: Hacen-Regular , 'sans-serif';
+
+#swal2-content {
+    font-family: Hacen-Regular, 'sans-serif';
 }
-    /*End edit-profile-section*/
+
+/*End edit-profile-section*/
+/*Start trainers-page-container*/
+.trainers-page-container{
+    border-radius: 16px;
+    padding: 80px 15px 15px 15px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.trainers-page-container img{
+    position: absolute;
+    top: -60px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*End trainers-page-container*/
 /*start sitting*/
 .scroll-style::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -1979,20 +2031,25 @@ button.dell {
     background-color: rgba(80, 194, 242, 0.75);
 
 }
-.hvr-underline-from-center{
+
+.hvr-underline-from-center {
     transform: none;
-    -o-transform:none ;
+    -o-transform: none;
     -webkit-transform: none;
 }
+
 .dark-blue {
     color: #1B4A5E !important;
 }
-.swal2-icon.swal2-success [class^=swal2-success-line]{
+
+.swal2-icon.swal2-success [class^=swal2-success-line] {
     background-color: #00e899 !important;
 }
+
 .swal2-icon.swal2-success {
     border-color: #00e899 !important;
 }
+
 .my-shadow {
     box-shadow: 0 0.3rem 0.7rem rgba(0, 0, 0, 0.15) !important;
     -webkit-box-shadow: 0 0.3rem 0.7rem rgba(0, 0, 0, 0.15);
@@ -2011,12 +2068,20 @@ button.dell {
     color: #F5544A !important;
 }
 
+.fs-20 {
+    font-size: 20px;
+}
+.fs-15{
+    font-size: 15px;
+}
 .btn-rounded {
     border-radius: 50px;
 }
-.title-description{
+
+.title-description {
     font-size: 18px;
 }
+
 .p-2rem {
     padding: 2rem;
 }
@@ -2046,11 +2111,13 @@ button.dell {
     color: #fff;
     border-color: #00E899;
 }
+
 .green-btn-solid {
     background-color: #00E899;
     color: #fff;
     border-color: #00E899;
 }
+
 .green-btn:hover {
     color: #00E899;
     background-color: transparent;
@@ -2157,12 +2224,15 @@ button.dell {
         display: inline-block;
         margin: 5px 0;
     }
-    .student-gate-tap{
+
+    .student-gate-tap {
         text-align: center;
     }
-    .student-gate-tap li a{
+
+    .student-gate-tap li a {
         padding: 12px 20px;
     }
+
     .about-section-container {
         padding: 15px;
     }
