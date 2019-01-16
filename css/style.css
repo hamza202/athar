@@ -2066,6 +2066,22 @@ button.dell {
     max-width: 85px;
 }
     /*End about page*/
+/*start single-course-page*/
+.single-course-page .solid-red-btn{
+
+    background: #55C1EF;
+    color: #fff;
+    border-color: #55C1EF;
+}
+.single-course-page .statistics-section-container ul li i,
+.single-course-page .share-list li ul li{
+    color: #55C1EF;
+}
+.single-course-page .sub-title h3,
+.single-course-page  .red-dash-list li::after{
+    background-color: #55C1EF;
+}
+/*End single-course-page*/
 /*start sitting*/
 .scroll-style::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
