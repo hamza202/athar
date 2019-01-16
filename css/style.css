@@ -2040,6 +2040,31 @@ button.dell {
     left: -43px;
     top: -7px;
 }
+.contact-btn i{
+    position: relative;
+    top: 2px;
+}
+.contact-us-section textarea{
+    background: #F6F8F9;
+}
+.contact-us-section textarea:focus{
+    border-color: #07e89b;
+    box-shadow: 0 0 0 0.2rem rgba(0, 232, 153, 0.25);
+}
+.name-avatar img{
+    position: absolute;
+    right: 0;
+    top: -110px;
+    z-index: -1;
+    max-width: 120px;
+}
+.message-avatar img{
+    position: absolute;
+    left: -84px;
+    top: -113px;
+    z-index: -1;
+    max-width: 85px;
+}
     /*End about page*/
 /*start sitting*/
 .scroll-style::-webkit-scrollbar-track {
@@ -2257,6 +2282,9 @@ button.dell {
         font-size: 16px;
         display: inline-block;
         margin: 5px 0;
+    }
+    .message-avatar img , .name-avatar img{
+        display: none;
     }
     .about-top h3 i ,.about-top h2 i{
         display: none;
