@@ -61,8 +61,12 @@
                             <br>
                             وفق منظور جديد
                         </h2>
-                        <a class="nav-link btn-color-outer d-inline-block btn-rounded solid-red-btn mt-4" href="#">سجل
-                            الأن</a>
+                        <a class="nav-link btn-color-outer d-inline-block btn-rounded solid-red-btn mt-4"
+                           href="javascript:void(0)"
+                           id="register-course">سجل الأن</a>
+                        <a class="nav-link btn-color-outer d-none btn-rounded solid-red-btn mt-4"
+                           href="#"
+                           id="register-done">اذهب الى الدورة</a>
                     </div>
                 </div>
             </div>
@@ -361,7 +365,7 @@
                         <div class="col-md-4 mb-3">
                             <img src="image/5.png" alt="">
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-4 mb-3 ">
                             <img src="image/6.png" alt="">
                         </div>
                     </div>
@@ -432,10 +436,22 @@
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/html5lightbox.js"></script>
-<script src="js/mixitup.min.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.countup.min.js"></script>
+<script src="js/sweetalert2.all.min.js"></script>
+<script>
+    $("#register-course").on("click", function () {
+        Swal({
+            position: 'center',
+            type: 'success',
+            text: 'تم التسجيل في التخصص',
+            showConfirmButton: false,
+            timer: 4000
+        }).then(
+            $(this).removeClass(" d-inline-block"),
+            $(this).addClass("d-none"),
+            $('#register-done').removeClass(" d-none"),
+            $('#register-done').addClass(" d-inline-block"),
+        )
+    });
+</script>
 </body>
 </html>
