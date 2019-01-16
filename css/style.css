@@ -1992,13 +1992,14 @@ button.dell {
 
 /*End edit-profile-section*/
 /*Start trainers-page-container*/
-.trainers-page-container{
+.trainers-page-container {
     border-radius: 16px;
     padding: 80px 15px 15px 15px;
     margin-top: 80px;
     margin-bottom: 20px;
 }
-.trainers-page-container img{
+
+.trainers-page-container img {
     position: absolute;
     top: -60px;
     width: 120px;
@@ -2008,80 +2009,212 @@ button.dell {
     left: 50%;
     transform: translateX(-50%);
 }
-.about-list img{
+
+.about-list img {
     max-width: 45px;
     padding-bottom: 10px;
 }
+
 /*End trainers-page-container*/
 /*Start about page*/
-.about-top h2{
-    font-family: 'Sukar Black' , sans-serif;
+.about-top h2 {
+    font-family: 'Sukar Black', sans-serif;
     font-size: 50px;
 }
-.about-top h3{
-    font-family: 'SukarBold' , sans-serif;
+
+.about-top h3 {
+    font-family: 'SukarBold', sans-serif;
     display: inline-block;
     font-size: 40px;
 }
-.news-section.about-top{
-    background-color: rgba(0 , 232 , 153 , 0.05);
+
+.news-section.about-top {
+    background-color: rgba(0, 232, 153, 0.05);
 }
-.about-top h3 i ,.about-top h2 i{
+
+.about-top h3 i, .about-top h2 i {
     position: absolute;
-    color: rgba(0 , 232 , 153 , 0.26);
+    color: rgba(0, 232, 153, 0.26);
     font-size: 65px;
     z-index: -1;
 }
-.about-top h2 i{
+
+.about-top h2 i {
     right: -42px;
     top: -38px;
 }
-.about-top h3 i{
+
+.about-top h3 i {
     left: -43px;
     top: -7px;
 }
-.contact-btn i{
+
+.contact-btn i {
     position: relative;
     top: 2px;
 }
-.contact-us-section textarea{
+
+.contact-us-section textarea {
     background: #F6F8F9;
 }
-.contact-us-section textarea:focus{
+
+.contact-us-section textarea:focus {
     border-color: #07e89b;
     box-shadow: 0 0 0 0.2rem rgba(0, 232, 153, 0.25);
 }
-.name-avatar img{
+
+.name-avatar img {
     position: absolute;
     right: 0;
     top: -110px;
     z-index: -1;
     max-width: 120px;
 }
-.message-avatar img{
+
+.message-avatar img {
     position: absolute;
     left: -84px;
     top: -113px;
     z-index: -1;
     max-width: 85px;
 }
-    /*End about page*/
+
+/*End about page*/
 /*start single-course-page*/
-.single-course-page .solid-red-btn{
+.single-course-page .solid-red-btn {
 
     background: #55C1EF;
     color: #fff;
     border-color: #55C1EF;
 }
+
 .single-course-page .statistics-section-container ul li i,
-.single-course-page .share-list li ul li{
+.single-course-page .share-list li ul li {
     color: #55C1EF;
 }
+
 .single-course-page .sub-title h3,
-.single-course-page  .red-dash-list li::after{
+.single-course-page .red-dash-list li::after {
     background-color: #55C1EF;
 }
+
 /*End single-course-page*/
+
+/*Start pie-chart*/
+.progress-pie-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #b8ffe2;
+    position: relative;
+}
+
+.progress-pie-chart.gt-50 {
+    background-color: #00e899;
+}
+
+.ppc-progress {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+    width: 200px;
+    height: 200px;
+    clip: rect(0, 200px, 200px, 100px);
+}
+
+.ppc-progress .ppc-progress-fill {
+    transition: all 0.3s;
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+    width: 200px;
+    height: 200px;
+    clip: rect(0, 100px, 200px, 0);
+    background: #00e899;
+    transform: rotate(60deg);
+}
+
+.gt-50 .ppc-progress {
+    clip: rect(0, 100px, 200px, 0);
+}
+
+.gt-50 .ppc-progress .ppc-progress-fill {
+    clip: rect(0, 200px, 200px, 100px);
+    background: #b8ffe2;
+}
+
+.ppc-percents {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 140.9130434783px / 2);
+    top: calc(50% - 140.9130434783px / 2);
+    width: 140.9130434783px;
+    height: 140.9130434783px;
+    background: #fff;
+    text-align: center;
+    display: table;
+}
+
+.ppc-percents span {
+    display: block;
+    font-size: 2.6em;
+    font-weight: bold;
+    color: #00e899;
+}
+
+.pcc-percents-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.progress-pie-chart {
+    margin: 0 auto 0;
+    -webkit-box-shadow: 0px 0px 0px 12px rgba(0, 232, 153, 0.16);
+    -moz-box-shadow: 0px 0px 0px 12px rgba(0, 232, 153, 0.16);
+    box-shadow: 0px 0px 0px 12px rgba(0, 232, 153, 0.16);
+}
+
+.signs-section .progress .my-progress {
+    background-color: #00E899;
+}
+.signs-section{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.signs-section .progress {
+    position: relative;
+    background-color: #C0EFDF;
+    border-radius: 0;
+    height: 23px;
+    direction: ltr;
+    margin-top: 3px;
+}
+
+.signs-section .progress span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #363636;
+    top: 2px;
+    font-size: 15px;
+}
+.signs-container{
+    background-color: #F1F1F1;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.signs-title{
+    background-color: #00E899;
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+/*End pie-chart*/
 /*start sitting*/
 .scroll-style::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -2114,9 +2247,11 @@ button.dell {
 .dark-blue {
     color: #1B4A5E !important;
 }
-.fs-30{
+
+.fs-30 {
     font-size: 30px;
 }
+
 .swal2-icon.swal2-success [class^=swal2-success-line] {
     background-color: #00e899 !important;
 }
@@ -2146,9 +2281,11 @@ button.dell {
 .fs-20 {
     font-size: 20px;
 }
-.fs-15{
+
+.fs-15 {
     font-size: 15px;
 }
+
 .btn-rounded {
     border-radius: 50px;
 }
@@ -2238,20 +2375,25 @@ button.dell {
     color: #fff !important;
     background-color: #00E899 !important;
 }
-.register-container input{
+
+.register-container input {
     border-bottom-right-radius: 10px !important;
     border-top-right-radius: 10px !important;
 }
-.register-container .input-group-text{
+
+.register-container .input-group-text {
     border-bottom-left-radius: 10px !important;
     border-top-left-radius: 10px !important;
 }
-.register-container  .reply-button{
+
+.register-container .reply-button {
     border-radius: 10px;
 }
-.register-container textarea{
+
+.register-container textarea {
     border-radius: 10px;
 }
+
 /*End sitting*/
 
 /*Start media query*/
@@ -2312,12 +2454,15 @@ button.dell {
         display: inline-block;
         margin: 5px 0;
     }
-    .message-avatar img , .name-avatar img{
+
+    .message-avatar img, .name-avatar img {
         display: none;
     }
-    .about-top h3 i ,.about-top h2 i{
+
+    .about-top h3 i, .about-top h2 i {
         display: none;
     }
+
     .student-gate-tap {
         text-align: center;
     }
