@@ -883,7 +883,7 @@ footer a:hover {
 }
 
 .red-dash-list p {
-    font-size: 16px;
+    font-size: 1.1em;
 }
 
 /*End learn-in-specialty-section*/
@@ -1968,7 +1968,7 @@ button.dell {
 }
 
 .edit-profile-section small {
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .edit-profile-section .form-control:disabled {
@@ -2395,6 +2395,12 @@ button.dell {
 }
 
 /*End sitting*/
+.navbar-light .navbar-toggler{
+    outline: none;
+}
+.all-specialty-section.all-courses-section .date-list2 li:nth-child(3){
+    color: #8E8E8E;
+}
 
 /*Start media query*/
 @media (min-width: 992px) {
@@ -2428,13 +2434,19 @@ button.dell {
 }
 
 @media (max-width: 992px) {
+    .page-top-section{
+        background-size: cover, cover;
+
+    }
     .w-20 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
     }
-
+    .statistics-section-container .col-lg-2:nth-child(3)::after{
+        display: none;
+    }
     .navbar-light .navbar-nav .nav-link {
         font-size: 15px;
     }
@@ -2446,6 +2458,21 @@ button.dell {
     .count-section-container .count-item {
         margin-bottom: 30px;
     }
+    .statistics-section-container ul{
+        margin-bottom: 0;
+    }
+    .statistics-section-container p{
+        font-size: 15px;
+    }
+    .statistics-section-container .col-lg-2 p{
+        margin-bottom: 12px;
+    }
+    .statistics-section-container .col-lg-2:nth-last-child(-n+3) p{
+        margin-bottom: 0;
+    }
+    .statistics-section-container ul li p{
+        margin-bottom: 0 !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -2454,7 +2481,21 @@ button.dell {
         display: inline-block;
         margin: 5px 0;
     }
-
+    .statistics-section-container .col-lg-2 p{
+        margin-bottom: 12px !important;
+    }
+    .statistics-section-container .col-lg-2:nth-last-child(-n+2) p{
+        margin-bottom: 0 !important;
+    }
+    .statistics-section-container .col-lg-2 ul li p{
+        margin-bottom: 0 !important;
+    }
+    .statistics-section-container .col-lg-2:nth-child(even)::after{
+        display: none;
+    }
+    .statistics-section-container .col-lg-2:nth-child(3)::after{
+        display: block;
+    }
     .message-avatar img, .name-avatar img {
         display: none;
     }
@@ -2496,7 +2537,31 @@ button.dell {
         object-fit: cover;
         max-height: 100vh;
     }
-
+    .page-top-section h2{
+        font-size: 25px;
+    }
+    .page-top-section-container {
+        padding: 70px 0 90px 0;
+    }
+    .learn-in-specialty-section{
+        margin-top: 10px;
+    }
+    .sub-title h3{
+        font-size: 18px;
+        padding: 10px 70px 10px 25px;
+    }
+    .sub-title{
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+    .supporters-section{
+        margin-top: 10px;
+    }
+    .sub-title h3 span{
+        height: 48px;
+        width: 52px;
+        line-height: 42px;
+    }
     .trainers-section .item {
         padding: 20px 30px;
     }
@@ -2504,11 +2569,25 @@ button.dell {
     img.footer-logo {
         margin: 0 auto;
     }
-
+    .about-top h3 {
+        font-size: 33px;
+    }
+    .card-title{
+        font-size: 17px;
+    }
+    .date-list2 li{
+        font-size: 14px;
+    }
     footer h5 {
         margin-top: 15px;
     }
-
+    .top-sub-page-bar ul p, .top-sub-page-bar ul span {
+        margin: 0;
+        font-size: 15px;
+    }
+    body{
+        font-size: 90%;
+    }
     footer {
         text-align: center;
     }
@@ -2560,6 +2639,85 @@ button.dell {
 
     .video-section {
         margin-bottom: 70px;
+    }
+    .lesson-section #myTab li{
+        width: 50%;
+        border-bottom: 1px solid #DADADA;
+    }
+    .lesson-section #myTab li:nth-last-child(-n+2){
+        border-bottom: 0;
+    }
+    .lesson-section #myTabContent2{
+        padding: 1rem;
+    }
+    .lesson-question .h5{
+        font-size: 16px;
+    }
+    .specialization-info .pt-2rem {
+        padding-top: 1rem;
+    }
+    .specialization-info .pl-2rem {
+        padding-left: 1rem;
+    }
+    .specialization-info .pr-2rem {
+        padding-right: 1rem;
+    }
+    .specialization-info .p-2rem {
+        padding: 1rem;
+    }
+    .talking-container .card-header h5{
+        font-size: 16px;
+    }
+    .talking-container .card-header button p{
+        padding-left: 54px;
+        font-size: 14px;
+    }
+    .we-comment-reply li{
+        padding: 15px 15px;
+    }
+    .we-comet h5{
+        font-size: 17px;
+    }
+    .comment-send label{
+        font-size: 20px;
+    }
+    .statistics-section-container .col-lg-2{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .talking-container .card-header button{
+        padding: 15px;
+    }
+    .lesson-section #myTab li:nth-child(2) a{
+        border-top-left-radius: 16px;
+    }
+    .lesson-section #myTab li:nth-child(even){
+        border-left: 0;
+    }
+    .lesson-section #myTab li a{
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        font-size: 15px;
+        text-align: center;
+    }
+    .course-team .media{
+        display: block;
+        text-align: center;
+    }
+    .course-team .media img{
+        margin-left:0 !important;
+        margin-bottom: 5px;
+    }
+    .supporters-section .col-md-4{
+        text-align: center;
+    }
+    .card-block > ul li:first-child{
+        width: 80%;
+    }
+    .my-card:hover, .courses-card:hover{
+        -o-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        transform: scale(1, 1);
     }
 }
 
