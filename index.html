@@ -11,16 +11,17 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="image/logo.png">
+    <link rel="icon" href="image/icon.png">
     <title>منصة أثر</title>
 </head>
 <body>
 <section class="top-section position-relative">
     <img class="top-section-bg" src="image/bg.jpg" alt="">
-    <nav class="navbar navbar-expand-md navbar-light ">
+    <nav class="navbar navbar-expand-md navbar-light  ">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img class="img-fluid" src="image/logo.png" alt="">
+                <img class="img-fluid wight-logo" src="image/logo-wight.png" alt="">
+                <img class="img-fluid dark-logo" src="image/logo2.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,16 +36,23 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">المساقات</a>
                     </li>
-                </ul>
-                <ul class="navbar-nav mr-auto second-list">
-                    <li class="nav-item log-in-link ">
-                        <a class="nav-link btn-color-outer" href="#">تسجيل الدخول</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">الأخبار</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">المدربين</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">مساعدة</a>
+                        <a class="nav-link" href="#">من نحن</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">اتصل بنا</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-auto second-list">
+                    <li class="nav-item log-in-link ">
+                        <a class="nav-link btn-color-outer" data-toggle="modal" data-target="#exampleModalCenter">تسجيل
+                            الدخول</a>
                     </li>
                 </ul>
 
@@ -597,7 +605,7 @@
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6">
-                <img class="footer-logo img-fluid d-block mb-1" src="image/footer-logo.png" alt="">
+                <img class="footer-logo img-fluid d-block mb-1" src="image/icon-wight.png" alt="">
                 <p class="mb-3 mb-lg-0">جميع الحقوق محفوظة 2018</p>
             </div>
         </div>
@@ -670,6 +678,18 @@
         }
     });
 </script>
+<script>
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
 
+        if (scroll >= 300) {
+            $(".navbar").addClass("fixed-header");
+            $(".page-container ").addClass("page-container-pad");
+        } else {
+            $(".navbar").removeClass("fixed-header");
+            $(".page-container ").removeClass("page-container-pad");
+        }
+    });
+</script>
 </body>
 </html>

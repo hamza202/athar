@@ -45,7 +45,9 @@ body {
 a, p {
     font-family: Hacen-Regular, 'sans-serif'
 }
-
+.navbar{
+    transition: all ease-in-out 0.5s;
+}
 .navbar-light .navbar-nav .nav-link {
     font-family: Hacen-bold, 'sans-serif';
 }
@@ -260,7 +262,9 @@ a, p {
 .navbar-light .navbar-nav.first-list .nav-link {
     color: #8E8E8E;
 }
-
+.top-section .navbar-light .navbar-nav.first-list .nav-link{
+    color: #fff;
+}
 .navbar .first-list a.btn-color:hover,
 .navbar .second-list a.btn-color-outer:hover {
     color: #fff;
@@ -736,6 +740,7 @@ footer a:hover {
     background: url("../image/bg2.jpg");
     position: relative;
     background-size: 100%, cover;
+    height: 330px;
 }
 
 .page-top-section h2 {
@@ -1630,11 +1635,16 @@ button {
     border-radius: 16px;
     overflow: hidden;
 }
-
+.my-card .card-block{
+    max-height: 115px;
+    overflow: hidden;
+}
 .all-specialty-section .courses-card-img span {
     background: #F5544A;
 }
-
+.page-container-pad{
+    padding-top: 80px;
+}
 .all-specialty-section .courses-card-img img {
     height: auto;
     width: auto;
@@ -2401,7 +2411,49 @@ button.dell {
 .all-specialty-section.all-courses-section .date-list2 li:nth-child(3){
     color: #8E8E8E;
 }
-
+.navbar-brand img{
+    max-height: 60px;
+}
+.dark-logo{
+    display: none;
+}
+.footer-logo{
+    max-height: 80px;
+}
+.navbar-light{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fixed-header{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.50);
+    box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.50);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 99999;
+}
+.fixed-header .wight-logo{
+    display: none;
+}
+.fixed-header .dark-logo{
+    display: inline-block;
+    max-height: 50px;
+}
+.top-section  .fixed-header.navbar-light .navbar-nav.first-list .nav-link{
+    color: #8E8E8E;
+}
+.top-section .fixed-header.navbar-light .navbar-nav.first-list .nav-link:hover{
+    color: #fff;
+}
+.page-container .fixed-header .navbar-brand img{
+    max-height: 50px;
+}
 /*Start media query*/
 @media (min-width: 992px) {
 
