@@ -2454,6 +2454,21 @@ button.dell {
 .page-container .fixed-header .navbar-brand img{
     max-height: 50px;
 }
+.pdf-list li a{
+    padding: 10px;
+    background-color: #C0EFDF;
+    color: #1b4a5e;
+    display: block;
+    border-bottom:1px solid #fff;
+}
+.pdf-list li a:hover{
+    background-color: #00E899;
+    color: #333;
+}
+.pdf-list li.pdf-active a{
+    background-color: #00E899;
+    color: #333;
+}
 /*Start media query*/
 @media (min-width: 992px) {
 
