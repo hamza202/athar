@@ -1113,14 +1113,14 @@ footer a:hover {
 }
 
 .lesson-section .side-menu {
-    background-color: #1B4A5E;
+    background-color: #B5FFE6;
     height: 100%;
 }
 
 .side-menu .accordion .card {
     border-radius: 0 !important;
     border: 0;
-    border-bottom: 2px solid #1b4a5e !important;
+    border-bottom: 2px solid #fff !important;
 }
 
 .side-menu .accordion .card .card-header {
@@ -1132,7 +1132,7 @@ footer a:hover {
     display: block;
     width: 100%;
     text-align: right;
-    background-color: #0F1F38;
+    background-color: #00E899;
     color: #fff;
     text-decoration: none;
     border-radius: 0;
@@ -1159,8 +1159,8 @@ footer a:hover {
 
 .side-menu .accordion .card .card-body ul li a {
     display: block;
-    background-color: #1B4A5E;
-    color: #fff;
+    background-color: #B5FFE6;
+    color: #0F1F38;
     padding: 1rem;
 }
 
@@ -1169,7 +1169,7 @@ footer a:hover {
 }
 
 .side-menu .accordion .card .card-body ul li:not(:first-child) {
-    border-top: 2px solid #0F1F38;
+    border-top: 2px solid #fff;
 }
 
 .lesson-section #myTab2 a {
